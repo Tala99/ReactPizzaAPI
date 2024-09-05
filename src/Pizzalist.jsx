@@ -21,7 +21,7 @@ export default function Pizzalist() {
             {
                 orders.map(product=>
                     <div className='col-lg-3 '>
-                        <div className='card'>
+                        <div className='card h-100 d-flex flex-column justify-content-center'>
                             <h2>{product.title}</h2>
                             <img className={`${style["pizza-img"]}`} src={product.image_url}/>
                         </div>
